@@ -22,7 +22,7 @@ Content-Type: application/json
 
 3. Ejemplos de Peticiones por Recurso
 
-🔐 Auth
+Auth
 
 Registrar Gerente
 
@@ -50,7 +50,7 @@ POST {{baseUrl}}/api/auth/login
 
 Nota: Copia el valor de accessToken de la respuesta y pégalo en la variable de entorno token.
 
-💰 Tarifas
+Tarifas
 
 Crear Tarifa Normal
 
@@ -91,7 +91,7 @@ Inactivar Tarifa
 PATCH {{baseUrl}}/api/tarifas/1/inactivar
 
 
-👥 Asociados
+Asociados
 
 Crear Asociado
 
@@ -144,7 +144,7 @@ PUT {{baseUrl}}/api/asociados/2001
 }
 
 
-🪪 Conductores
+Conductores
 
 Crear Conductor
 
@@ -201,7 +201,7 @@ PUT {{baseUrl}}/api/conductores/3001
 }
 
 
-🚙 Vehículos
+Vehículos
 
 Crear Vehículo
 
@@ -268,7 +268,7 @@ PUT {{baseUrl}}/api/vehiculos/ABC123
 }
 
 
-🤝 Afiliaciones
+Afiliaciones
 
 Crear Afiliación
 
@@ -306,7 +306,7 @@ PATCH {{baseUrl}}/api/afiliaciones/1/desafiliar
 }
 
 
-📋 Planillas
+Planillas
 
 Crear Planilla Operación
 
@@ -385,7 +385,7 @@ PATCH {{baseUrl}}/api/planillas/1
 }
 
 
-🛣️ Despachos
+Despachos
 
 Crear Despacho
 
